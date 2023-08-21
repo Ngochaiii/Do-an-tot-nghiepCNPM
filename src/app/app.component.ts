@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Graduation_project';
+  public hidenChangeSidebar = true
+  public hidenChange() {
+    this.hidenChangeSidebar = !this.hidenChangeSidebar
+  }
 }
